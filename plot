@@ -2,7 +2,7 @@
 from telegram import Update
 from telegram.ext import Updater, CommandHandler, CallbackContext
 
-BOT_TOKEN = "7999205423:AAHdzdGW-LEEZZSdf_U-tbC5C5_fZQRXMUk"
+BOT_TOKEN = ""
 
 def start(update: Update, context: CallbackContext) -> None:
     """Handles the /start command."""
